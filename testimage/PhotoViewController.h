@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "VNDataFetcher.h"
+@interface PhotoViewController : UIViewController
+@property(nonatomic,strong) IBOutlet UITableView *tblView;
 
 @end
 
